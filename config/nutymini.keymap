@@ -22,15 +22,24 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        bluetooth {
+            bindings = <&mo 5>;
+            key-positions = <38 45>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&lt 3 TAB         &kp Q       &kp W        &kp E         &kp R        &kp T           &kp Y           &kp U         &kp I         &kp O        &kp P          &kp BSPC
-&kp LEFT_CONTROL  &hm LALT A  &hm LWIN S   &hm LSHIFT D  &hm LCTRL F  &kp G           &kp H           &hm RCTRL J   &hm RSHIFT K  &hm RWIN L   &hm RALT SEMI  &kp DEL
-&kp LEFT_SHIFT    &kp Z       &kp X        &kp C         &kp V        &kp B           &kp N           &kp M         &kp COMMA     &kp DOT      &kp SQT        &kp RIGHT_SHIFT
-&kp ESC           &mo 5       &lt 1 SPACE  &mkp RCLK     &kp C_MUTE   &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN  &lt 2 SPACE  &mo 4          &kp ENTER
+&lt 3 TAB         &kp Q         &kp W        &kp E         &kp R        &kp T           &kp Y           &kp U         &kp I         &kp O        &kp P          &kp BSPC
+&kp LEFT_CONTROL  &hm LALT A    &hm LWIN S   &hm LSHIFT D  &hm LCTRL F  &kp G           &kp H           &hm RCTRL J   &hm RSHIFT K  &hm RWIN L   &hm RALT SEMI  &kp DEL
+&kp LEFT_SHIFT    &kp Z         &kp X        &kp C         &kp V        &kp B           &kp N           &kp M         &kp COMMA     &kp DOT      &kp SQT        &kp RIGHT_SHIFT
+&kp LALT          &mt LWIN ESC  &lt 1 SPACE  &mkp RCLK     &kp C_MUTE   &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN  &lt 2 SPACE  &mo 4          &kp ENTER
             >;
         };
 
