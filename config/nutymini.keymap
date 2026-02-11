@@ -30,7 +30,7 @@
 &lt 3 TAB         &kp Q       &kp W        &kp E         &kp R        &kp T           &kp Y           &kp U         &kp I         &kp O        &kp P          &kp BSPC
 &kp LEFT_CONTROL  &hm LALT A  &hm LWIN S   &hm LSHIFT D  &hm LCTRL F  &kp G           &kp H           &hm RCTRL J   &hm RSHIFT K  &hm RWIN L   &hm RALT SEMI  &kp DEL
 &kp LEFT_SHIFT    &kp Z       &kp X        &kp C         &kp V        &kp B           &kp N           &kp M         &kp COMMA     &kp DOT      &kp SQT        &kp RIGHT_SHIFT
-&kp ESC           &kp LALT    &lt 1 SPACE  &mkp RCLK     &kp C_MUTE   &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN  &lt 2 SPACE  &lt 4 ENTER    &kp ESC
+&kp ESC           &mo 5       &lt 1 SPACE  &mkp RCLK     &kp C_MUTE   &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN  &lt 2 SPACE  &mo 4          &kp ENTER
             >;
         };
 
@@ -72,46 +72,46 @@
 
         bluetooth {
             bindings = <
-&none       &kp INSERT      &kp PG_UP       &kp PG_DN       &bt BT_CLR          &bt BT_CLR_ALL  &none           &none   &none   &none    &none    &none
-&none       &kp LSHFT       &kp LEFT_ALT    &none           &kp LEFT_CONTROL    &none           &none           &none   &none   &none    &none    &none
-&none       &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3        &bt BT_SEL 4    &none           &none   &none   &none    &none    &none
-&none       &none           &none           &none           &none               &studio_unlock  &studio_unlock  &none   &none   &none    &none    &none
+&none  &kp INSERT    &kp PG_UP     &kp PG_DN     &bt BT_CLR        &bt BT_CLR_ALL  &none           &none  &none  &none  &none  &none
+&none  &kp LSHFT     &kp LEFT_ALT  &none         &kp LEFT_CONTROL  &none           &none           &none  &none  &none  &none  &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4    &none           &none  &none  &none  &none  &none
+&none  &none         &none         &none         &none             &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
             >;
         };
 
         layer_7 {
             bindings = <
-&none      &none     &none      &none     &none     &none           &none            &none       &none     &none         &none        &none
-&none      &none     &none      &none     &none     &none           &none            &none       &none     &none         &none        &none
-&none      &none     &none      &none     &none     &none           &none            &none       &none     &none         &none        &none
-&none      &none     &none      &none     &none     &studio_unlock  &studio_unlock   &none       &none     &none         &none        &none
+&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
             >;
         };
 
         layer_8 {
             bindings = <
-&none      &none     &none      &none     &none     &none           &none            &none       &none     &none         &none        &none
-&none      &none     &none      &none     &none     &none           &none            &none       &none     &none         &none        &none
-&none      &none     &none      &none     &none     &none           &none            &none       &none     &none         &none        &none
-&none      &none     &none      &none     &none     &studio_unlock  &studio_unlock   &none       &none     &none         &none        &none
+&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
             >;
         };
 
         layer_9 {
             bindings = <
-&none      &none     &none      &none     &none     &none           &none            &none       &none     &none         &none        &none
-&none      &none     &none      &none     &none     &none           &none            &none       &none     &none         &none        &none
-&none      &none     &none      &none     &none     &none           &none            &none       &none     &none         &none        &none
-&none      &none     &none      &none     &none     &studio_unlock  &studio_unlock   &none       &none     &none         &none        &none
+&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
             >;
         };
 
         layer_10 {
             bindings = <
-&none      &none     &none      &none     &none     &none           &none            &none       &none     &none         &none        &none
-&none      &none     &none      &none     &none     &none           &none            &none       &none     &none         &none        &none
-&none      &none     &none      &none     &none     &none           &none            &none       &none     &none         &none        &none
-&none      &none     &none      &none     &none     &studio_unlock  &studio_unlock   &none       &none     &none         &none        &none
+&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
             >;
         };
     };
