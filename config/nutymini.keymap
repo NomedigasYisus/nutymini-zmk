@@ -20,6 +20,14 @@
             require-prior-idle-ms = <200>;
             bindings = <&kp>, <&kp>;
         };
+
+        tap_semi: tap_semi {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_SEMI";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&hm RALT SEMI>, <&kp COLON>;
+        };
     };
 
     combos {
@@ -36,28 +44,28 @@
 
         default_layer {
             bindings = <
-&kp LALT      &kp Q       &kp W        &kp E         &kp R       &kp T           &kp Y           &kp U         &kp I         &kp O        &kp P          &kp BSPC
-&kp LSHFT     &hm LALT A  &hm LCTRL S  &hm LSHIFT D  &hm LWIN F  &kp G           &kp H           &hm RWIN J    &hm RSHIFT K  &hm RCTRL L  &hm RALT SEMI  &kp RSHFT
-&kp LCTRL     &kp Z       &kp X        &kp C         &kp V       &kp B           &kp N           &kp M         &kp COMMA     &kp DOT      &kp SQT        &kp DEL
-&mt LWIN TAB  &lt 3 ESC   &lt 1 SPACE  &mkp RCLK     &mkp LCLK   &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN  &lt 2 SPACE  &mo 4          &mt RALT ENTER
+&kp LALT      &kp Q       &kp W        &kp E         &kp R        &kp T           &kp Y           &kp U         &kp I         &kp O        &kp P      &kp BSPC
+&kp LSHFT     &hm LALT A  &hm LWIN S   &hm LSHIFT D  &hm LCTRL F  &kp G           &kp H           &hm RCTRL J   &hm RSHIFT K  &hm RWIN L   &tap_semi  &kp RSHFT
+&kp LCTRL     &kp Z       &kp X        &kp C         &kp V        &kp B           &kp N           &kp M         &kp COMMA     &kp DOT      &kp SQT    &kp DEL
+&mt LWIN ESC  &lt 3 TAB   &lt 1 SPACE  &mkp RCLK     &mkp LCLK    &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN  &lt 2 SPACE  &mo 4      &mt RALT ENTER
             >;
         };
 
         function {
             bindings = <
-&trans  &kp F1    &kp F2     &kp F3     &kp F4   &kp F5          &none           &none  &none  &none   &none   &trans
-&trans  &kp F6    &kp F7     &kp F8     &kp F9   &kp F10         &none           &none  &none  &none   &none   &trans
-&trans  &kp LALT  &kp LCTRL  &kp LSHFT  &kp F11  &kp F12         &none           &none  &none  &none   &none   &trans
-&trans  &trans    &trans     &none      &none    &studio_unlock  &studio_unlock  &none  &none  &trans  &trans  &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4   &kp F5          &none           &none  &none  &none   &none   &trans
+&trans  &kp F6  &kp F7  &kp F8  &kp F9   &kp F10         &none           &none  &none  &none   &none   &trans
+&trans  &none   &none   &none   &kp F11  &kp F12         &none           &none  &none  &none   &none   &trans
+&trans  &trans  &trans  &none   &none    &studio_unlock  &studio_unlock  &none  &none  &trans  &trans  &trans
             >;
         };
 
         row {
             bindings = <
-&trans  &none     &none      &none      &none     &none           &none           &kp PG_UP  &kp UP      &kp PG_DN  &kp INS      &kp DEL
-&trans  &kp LALT  &kp LCTRL  &kp LSHFT  &kp LWIN  &none           &kp LS(LG(S))   &kp LEFT   &kp DOWN    &kp RIGHT  &kp LS(INS)  &trans
-&trans  &none     &none      &none      &none     &none           &kp LS(LG(N4))  &kp HOME   &kp LSHIFT  &kp END    &none        &trans
-&trans  &trans    &trans     &none      &none     &studio_unlock  &studio_unlock  &none      &none       &trans     &trans       &trans
+&trans  &none     &none     &none      &none      &none           &none           &kp PG_UP  &kp UP      &kp PG_DN  &kp INS      &trans
+&trans  &kp LALT  &kp LWIN  &kp LSHFT  &kp LCTRL  &none           &kp LS(LG(S))   &kp LEFT   &kp DOWN    &kp RIGHT  &kp LS(INS)  &trans
+&trans  &none     &none     &none      &none      &none           &kp LS(LG(N4))  &kp HOME   &kp LSHIFT  &kp END    &none        &trans
+&trans  &trans    &trans    &none      &none      &studio_unlock  &studio_unlock  &none      &none       &trans     &trans       &trans
             >;
         };
 
