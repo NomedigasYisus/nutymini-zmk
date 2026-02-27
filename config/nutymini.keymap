@@ -29,13 +29,6 @@
             bindings = <&hm RALT SEMI>, <&kp COLON>;
         };
 
-        tap_s_: tap_s__ctrl {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_S_ CTRL";
-            #binding-cells = <0>;
-            bindings = <&hm LCTRL S>, <&kp LC(S)>;
-        };
-
         tap_x_ctrl: tap_x_ctrl {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_X_CTRL";
@@ -63,6 +56,13 @@
             #binding-cells = <0>;
             bindings = <&kp DOT>, <&kp GT>;
         };
+
+        tap_s_ctrl: tap_s_ctrl {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_S_CTRL";
+            #binding-cells = <0>;
+            bindings = <&hm LCTRL S>, <&kp LC(S)>;
+        };
     };
 
     combos {
@@ -79,10 +79,10 @@
 
         default_layer {
             bindings = <
-&kp LALT      &kp Q       &kp W         &kp E         &kp R       &kp T           &kp Y           &kp U         &kp I         &kp O        &kp P      &kp BSPC
-&kp LCTRL     &hm LALT A  &tap_s_ ctrl  &hm LSHIFT D  &hm LWIN F  &kp G           &kp H           &hm RWIN J    &hm RSHIFT K  &hm RCTRL L  &tap_semi  &kp DEL
-&kp LSHIFT    &kp Z       &tap_x_ctrl   &kp C         &kp V       &kp B           &kp N           &kp M         &tap_comma    &tap_dot     &tap_sqt   &kp RSHFT
-&mt LWIN ESC  &lt 3 TAB   &lt 1 SPACE   &mkp RCLK     &mkp LCLK   &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN  &lt 2 SPACE  &mo 4      &mt RALT ENTER
+&kp LALT      &kp Q       &kp W        &kp E         &kp R       &kp T           &kp Y           &kp U         &kp I         &kp O        &kp P      &kp BSPC
+&kp LCTRL     &hm LALT A  &tap_s_ctrl  &hm LSHIFT D  &hm LWIN F  &kp G           &kp H           &hm RWIN J    &hm RSHIFT K  &hm RCTRL L  &tap_semi  &kp DEL
+&kp LSHIFT    &kp Z       &tap_x_ctrl  &kp C         &kp V       &kp B           &kp N           &kp M         &tap_comma    &tap_dot     &tap_sqt   &kp RSHFT
+&mt LWIN ESC  &lt 3 TAB   &lt 1 SPACE  &mkp RCLK     &mkp LCLK   &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN  &lt 2 SPACE  &mo 4      &mt RALT ENTER
             >;
         };
 
