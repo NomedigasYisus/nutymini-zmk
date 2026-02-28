@@ -15,9 +15,9 @@
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             flavor = "tap-preferred";
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
         };
 
@@ -25,7 +25,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_SEMI";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             bindings = <&hm RALT SEMI>, <&kp COLON>;
         };
 
@@ -34,6 +34,8 @@
             label = "TAP_V_CTRL";
             #binding-cells = <0>;
             bindings = <&kp V>, <&kp LC(V)>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_sqt: tap_sqt {
@@ -41,6 +43,8 @@
             label = "TAP_SQT";
             #binding-cells = <0>;
             bindings = <&kp SQT>, <&kp DQT>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_comma: tap_comma {
@@ -48,6 +52,8 @@
             label = "TAP_COMMA";
             #binding-cells = <0>;
             bindings = <&kp COMMA>, <&kp LT>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_dot: tap_dot {
@@ -55,6 +61,8 @@
             label = "TAP_DOT";
             #binding-cells = <0>;
             bindings = <&kp DOT>, <&kp GT>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_f_ctrl: tap_f_ctrl {
@@ -62,6 +70,8 @@
             label = "TAP_F_CTRL";
             #binding-cells = <0>;
             bindings = <&hm LCTRL F>, <&kp LC(F)>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_f1: tap_f1 {
@@ -69,6 +79,8 @@
             label = "TAP_F1";
             #binding-cells = <0>;
             bindings = <&kp F1>, <&kp LA(F1)>, <&kp LS(F1)>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_f2: tap_f2 {
@@ -76,6 +88,8 @@
             label = "TAP_F2";
             #binding-cells = <0>;
             bindings = <&kp F2>, <&kp LA(F2)>, <&kp LS(F2)>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_f3: tap_f3 {
@@ -83,6 +97,8 @@
             label = "TAP_F3";
             #binding-cells = <0>;
             bindings = <&kp F3>, <&kp LA(F3)>, <&kp LS(F3)>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_f4: tap_f4 {
@@ -97,6 +113,8 @@
             label = "TAP_F5";
             #binding-cells = <0>;
             bindings = <&kp F5>, <&kp LA(F5)>, <&kp LS(F5)>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_f6: tap_f6 {
@@ -104,6 +122,8 @@
             label = "TAP_F6";
             #binding-cells = <0>;
             bindings = <&kp F6>, <&kp LA(F6)>, <&kp LS(F6)>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_f7: tap_f7 {
@@ -111,6 +131,8 @@
             label = "TAP_F7";
             #binding-cells = <0>;
             bindings = <&kp F7>, <&kp LA(F7)>, <&kp LS(F7)>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_f8: tap_f8 {
@@ -118,6 +140,8 @@
             label = "TAP_F8";
             #binding-cells = <0>;
             bindings = <&kp F8>, <&kp LA(F8)>, <&kp LS(F8)>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_f9: tap_f9 {
@@ -125,6 +149,8 @@
             label = "TAP_F9";
             #binding-cells = <0>;
             bindings = <&kp F9>, <&kp LA(F9)>, <&kp LS(F9)>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_f10: tap_f10 {
@@ -132,6 +158,8 @@
             label = "TAP_F10";
             #binding-cells = <0>;
             bindings = <&kp F10>, <&kp LA(F10)>, <&kp LS(F10)>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_f11: tap_f11 {
@@ -139,6 +167,8 @@
             label = "TAP_F11";
             #binding-cells = <0>;
             bindings = <&kp F11>, <&kp LA(F11)>, <&kp LS(F11)>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_f12: tap_f12 {
@@ -146,6 +176,8 @@
             label = "TAP_F12";
             #binding-cells = <0>;
             bindings = <&kp F12>, <&kp LA(F12)>, <&kp LS(F12)>;
+
+            tapping-term-ms = <150>;
         };
     };
 
