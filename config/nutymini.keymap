@@ -35,7 +35,7 @@
             #binding-cells = <0>;
             bindings = <&kp V>, <&kp LC(V)>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
 
         tap_sqt: tap_sqt {
@@ -44,7 +44,7 @@
             #binding-cells = <0>;
             bindings = <&kp SQT>, <&kp DQT>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
 
         tap_comma: tap_comma {
@@ -53,7 +53,7 @@
             #binding-cells = <0>;
             bindings = <&kp COMMA>, <&kp LT>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
 
         tap_dot: tap_dot {
@@ -62,7 +62,7 @@
             #binding-cells = <0>;
             bindings = <&kp DOT>, <&kp GT>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
 
         tap_f_ctrl: tap_f_ctrl {
@@ -71,7 +71,7 @@
             #binding-cells = <0>;
             bindings = <&hm LCTRL F>, <&kp LC(F)>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
 
         tap_f1: tap_f1 {
@@ -80,7 +80,7 @@
             #binding-cells = <0>;
             bindings = <&kp F1>, <&kp LA(F1)>, <&kp LS(F1)>, <&kp LC(F1)>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
 
         tap_f2: tap_f2 {
@@ -89,7 +89,7 @@
             #binding-cells = <0>;
             bindings = <&kp F2>, <&kp LA(F2)>, <&kp LS(F2)>, <&kp LC(F2)>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
 
         tap_f3: tap_f3 {
@@ -98,7 +98,7 @@
             #binding-cells = <0>;
             bindings = <&kp F3>, <&kp LA(F3)>, <&kp LS(F3)>, <&kp LC(F3)>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
 
         tap_f4: tap_f4 {
@@ -106,6 +106,8 @@
             label = "TAP_F4";
             #binding-cells = <0>;
             bindings = <&kp F4>, <&kp LA(F4)>, <&kp LS(F4)>, <&kp LC(F4)>;
+
+            tapping-term-ms = <125>;
         };
 
         tap_f5: tap_f5 {
@@ -114,7 +116,7 @@
             #binding-cells = <0>;
             bindings = <&kp F5>, <&kp LA(F5)>, <&kp LS(F5)>, <&kp LC(F5)>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
 
         tap_f6: tap_f6 {
@@ -123,7 +125,7 @@
             #binding-cells = <0>;
             bindings = <&kp F6>, <&kp LA(F6)>, <&kp LS(F6)>, <&kp LC(F6)>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
 
         tap_f7: tap_f7 {
@@ -132,7 +134,7 @@
             #binding-cells = <0>;
             bindings = <&kp F7>, <&kp LA(F7)>, <&kp LS(F7)>, <&kp LC(F7)>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
 
         tap_f8: tap_f8 {
@@ -141,7 +143,7 @@
             #binding-cells = <0>;
             bindings = <&kp F8>, <&kp LA(F8)>, <&kp LS(F8)>, <&kp LC(F8)>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
 
         tap_f9: tap_f9 {
@@ -150,7 +152,7 @@
             #binding-cells = <0>;
             bindings = <&kp F9>, <&kp LA(F9)>, <&kp LS(F9)>, <&kp LC(F9)>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
 
         tap_f10: tap_f10 {
@@ -159,7 +161,7 @@
             #binding-cells = <0>;
             bindings = <&kp F10>, <&kp LA(F10)>, <&kp LS(F10)>, <&kp LC(F10)>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
 
         tap_f11: tap_f11 {
@@ -168,7 +170,7 @@
             #binding-cells = <0>;
             bindings = <&kp F11>, <&kp LA(F11)>, <&kp LS(F11)>, <&kp LC(F11)>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
 
         tap_f12: tap_f12 {
@@ -177,7 +179,7 @@
             #binding-cells = <0>;
             bindings = <&kp F12>, <&kp LA(F12)>, <&kp LS(F12)>, <&kp LC(F12)>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
     };
 
