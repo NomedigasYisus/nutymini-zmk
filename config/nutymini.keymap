@@ -35,7 +35,7 @@
             #binding-cells = <0>;
             bindings = <&kp V>, <&kp LC(V)>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
 
         tap_sqt: tap_sqt {
@@ -71,7 +71,7 @@
             #binding-cells = <0>;
             bindings = <&hm LCTRL F>, <&kp LC(F)>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <125>;
         };
 
         tap_f1: tap_f1 {
