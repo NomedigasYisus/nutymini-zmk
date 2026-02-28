@@ -213,9 +213,9 @@
 
         row {
             bindings = <
-&trans  &none     &none     &none      &none      &none           &none           &kp PG_UP  &kp UP      &kp PG_DN  &kp LS(LG(S))   &trans
-&trans  &kp LALT  &kp LWIN  &kp LSHFT  &kp LCTRL  &none           &kp BACKSPACE   &kp LEFT   &kp DOWN    &kp RIGHT  &kp LS(LG(N4))  &trans
-&trans  &none     &none     &none      &none      &none           &kp DEL         &kp HOME   &kp LSHIFT  &kp END    &kp INS         &trans
+&trans  &none     &none     &none      &none      &none           &kp BACKSPACE   &kp PG_UP  &kp UP      &kp PG_DN  &kp LS(LG(S))   &trans
+&trans  &kp LALT  &kp LWIN  &kp LSHFT  &kp LCTRL  &none           &kp DEL         &kp LEFT   &kp DOWN    &kp RIGHT  &kp LS(LG(N4))  &trans
+&trans  &none     &none     &none      &none      &none           &none           &kp HOME   &kp LSHIFT  &kp END    &kp INS         &trans
 &trans  &trans    &trans    &none      &none      &studio_unlock  &studio_unlock  &none      &none       &trans     &trans          &trans
             >;
         };
