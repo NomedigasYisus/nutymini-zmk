@@ -25,7 +25,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_SEMI";
             #binding-cells = <0>;
-            tapping-term-ms = <140>;
+            tapping-term-ms = <125>;
             bindings = <&hm RALT SEMI>, <&kp COLON>;
         };
 
@@ -35,7 +35,7 @@
             #binding-cells = <0>;
             bindings = <&kp V>, <&kp LC(V)>;
 
-            tapping-term-ms = <140>;
+            tapping-term-ms = <125>;
         };
 
         tap_sqt: tap_sqt {
@@ -44,7 +44,7 @@
             #binding-cells = <0>;
             bindings = <&kp SQT>, <&kp DQT>;
 
-            tapping-term-ms = <140>;
+            tapping-term-ms = <125>;
         };
 
         tap_comma: tap_comma {
@@ -53,7 +53,7 @@
             #binding-cells = <0>;
             bindings = <&kp COMMA>, <&kp LT>;
 
-            tapping-term-ms = <140>;
+            tapping-term-ms = <125>;
         };
 
         tap_dot: tap_dot {
@@ -62,7 +62,7 @@
             #binding-cells = <0>;
             bindings = <&kp DOT>, <&kp GT>;
 
-            tapping-term-ms = <140>;
+            tapping-term-ms = <125>;
         };
 
         tap_f_ctrl: tap_f_ctrl {
@@ -71,7 +71,7 @@
             #binding-cells = <0>;
             bindings = <&hm LCTRL F>, <&kp LC(F)>;
 
-            tapping-term-ms = <140>;
+            tapping-term-ms = <125>;
         };
 
         tap_f1: tap_f1 {
