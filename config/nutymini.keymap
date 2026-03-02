@@ -15,9 +15,9 @@
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <220>;
             flavor = "tap-preferred";
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <220>;
             bindings = <&kp>, <&kp>;
         };
 
@@ -26,6 +26,8 @@
             label = "TAP_SEMI";
             #binding-cells = <0>;
             bindings = <&hm RALT SEMI>, <&kp COLON>;
+
+            tapping-term-ms = <220>;
         };
 
         tap_v_ctrl: tap_v_ctrl {
@@ -33,6 +35,8 @@
             label = "TAP_V_CTRL";
             #binding-cells = <0>;
             bindings = <&kp V>, <&kp LC(V)>;
+
+            tapping-term-ms = <220>;
         };
 
         tap_sqt: tap_sqt {
@@ -40,6 +44,8 @@
             label = "TAP_SQT";
             #binding-cells = <0>;
             bindings = <&kp SQT>, <&kp DQT>;
+
+            tapping-term-ms = <220>;
         };
 
         tap_comma: tap_comma {
@@ -47,6 +53,8 @@
             label = "TAP_COMMA";
             #binding-cells = <0>;
             bindings = <&kp COMMA>, <&kp LT>;
+
+            tapping-term-ms = <220>;
         };
 
         tap_dot: tap_dot {
@@ -54,6 +62,8 @@
             label = "TAP_DOT";
             #binding-cells = <0>;
             bindings = <&kp DOT>, <&kp GT>;
+
+            tapping-term-ms = <220>;
         };
 
         tap_f_ctrl: tap_f_ctrl {
@@ -61,6 +71,8 @@
             label = "TAP_F_CTRL";
             #binding-cells = <0>;
             bindings = <&hm LCTRL F>, <&kp LC(F)>;
+
+            tapping-term-ms = <220>;
         };
 
         tap_f1: tap_f1 {
@@ -153,8 +165,8 @@
             bindings = <&kp>, <&tap_f_ctrl>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            require-prior-idle-ms = <200>;
+            tapping-term-ms = <220>;
+            require-prior-idle-ms = <220>;
         };
     };
 
