@@ -26,6 +26,8 @@
             label = "TAP_SEMI";
             #binding-cells = <0>;
             bindings = <&hm RALT SEMI>, <&kp COLON>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_sqt: tap_sqt {
@@ -33,6 +35,8 @@
             label = "TAP_SQT";
             #binding-cells = <0>;
             bindings = <&kp SQT>, <&kp DQT>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_comma: tap_comma {
@@ -40,6 +44,8 @@
             label = "TAP_COMMA";
             #binding-cells = <0>;
             bindings = <&kp COMMA>, <&kp LT>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_dot: tap_dot {
@@ -47,6 +53,8 @@
             label = "TAP_DOT";
             #binding-cells = <0>;
             bindings = <&kp DOT>, <&kp GT>;
+
+            tapping-term-ms = <150>;
         };
 
         tap_f1: tap_f1 {
