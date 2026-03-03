@@ -166,10 +166,10 @@
 
         simbol {
             bindings = <
-&trans  &kp EXCL       &kp AT           &kp LBKT        &kp RBKT       &kp PERCENT     &kp PIPE        &kp BSLH   &kp SLASH  &kp ASTRK  &kp QMARK  &trans
-&trans  &hm LALT HASH  &hm LWIN DOLLAR  &hm LSHFT LPAR  &hm RPAR RPAR  &kp CARET       &kp GRAVE       &kp EQUAL  &kp MINUS  &kp PLUS   &kp COLON  &trans
-&trans  &none          &none            &kp LBRC        &kp RBRC       &kp AMPS        &kp TILDE       &kp UNDER  &kp LT     &kp GT     &kp DQT    &trans
-&trans  &trans         &trans           &none           &none          &studio_unlock  &studio_unlock  &none      &none      &trans     &trans     &trans
+&trans  &kp EXCL       &kp AT           &kp LBKT        &kp RBKT        &kp PERCENT     &kp PIPE        &kp BSLH   &kp SLASH  &kp ASTRK  &kp QMARK  &trans
+&trans  &hm LALT HASH  &hm LWIN DOLLAR  &hm LSHFT LPAR  &hm LCTRL RPAR  &kp CARET       &kp GRAVE       &kp EQUAL  &kp MINUS  &kp PLUS   &kp COLON  &trans
+&trans  &none          &none            &kp LBRC        &kp RBRC        &kp AMPS        &kp TILDE       &kp UNDER  &kp LT     &kp GT     &kp DQT    &trans
+&trans  &trans         &trans           &none           &none           &studio_unlock  &studio_unlock  &none      &none      &trans     &trans     &trans
             >;
         };
 
