@@ -27,7 +27,7 @@
             #binding-cells = <0>;
             bindings = <&kp SQT>, <&kp DQT>;
 
-            tapping-term-ms = <120>;
+            tapping-term-ms = <130>;
         };
 
         tap_comma: tap_comma {
@@ -36,7 +36,7 @@
             #binding-cells = <0>;
             bindings = <&kp COMMA>, <&kp LT>;
 
-            tapping-term-ms = <120>;
+            tapping-term-ms = <130>;
         };
 
         tap_dot: tap_dot {
@@ -45,7 +45,7 @@
             #binding-cells = <0>;
             bindings = <&kp DOT>, <&kp GT>;
 
-            tapping-term-ms = <120>;
+            tapping-term-ms = <130>;
         };
 
         tap_f1: tap_f1 {
@@ -158,7 +158,7 @@
         default_layer {
             bindings = <
 &kp LALT      &kp Q       &kp W        &kp E         &kp R        &kp T           &kp Y           &kp U         &kp I         &kp O        &kp P          &kp BSPC
-&kp LCTRL     &hm LALT A  &hm LCTRL S  &hm LSHIFT D  &hm LCTRL F  &hm LWIN G      &hm RWIN H      &hm RCTRL J   &hm RSHIFT K  &hm RCTRL L  &hm RALT SEMI  &kp DEL
+&kp LCTRL     &hm LALT A  &hm LWIN S   &hm LSHIFT D  &hm LCTRL F  &hm LCTRL G     &hm RCTRL H     &hm RCTRL J   &hm RSHIFT K  &hm RWIN L   &hm RALT SEMI  &kp DEL
 &kp LSHFT     &kp Z       &kp X        &kp C         &kp V        &kp B           &kp N           &kp M         &tap_comma    &tap_dot     &tap_sqt       &kp RSHFT
 &mt LWIN ESC  &lt 3 TAB   &lt 1 SPACE  &mkp RCLK     &mkp LCLK    &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN  &lt 2 SPACE  &mo 4          &mt RALT ENTER
             >;
